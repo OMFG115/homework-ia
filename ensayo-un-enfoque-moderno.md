@@ -1,4 +1,4 @@
-#Unidad 1: Introducción a la Inteligencia Artificial
+# Unidad 1: Introducción a la Inteligencia Artificial
 
 A grandes rasgos la inteligencia artificial presenta 4 enfoques principales, sistemas que piensan como humanos, sistemas que piensan racionalmente, sistemas que actúan como humanos y sistemas que actúan racionalmente. Estos se dividen en 2 grupos: el primero basado en la racionalidad y el segundo en la humanidad.
 
