@@ -18,3 +18,40 @@ Poco después, comenzó el desarrollo de sistemas los cuales estaban basados en 
 
 La IA ha tenido ha tenido un avance bastante rápido, poco a poco se han ido creando programas más complejos que resuelvan problemas más grandes, en pocas palabras se ha vuelto indispensable para reducir tiempos en distintas actividades, tanto así que muchas disciplinas diferentes han encontrado elementos en común con la inteligencia artificial y han comenzado a implementarla
 
+# Unidad 2: Agentes
+
+# Agente en la Inteligencia Artificial
+
+Un **agente** es cualquier entidad con la capacidad de percibir su entorno con la ayuda de sensores y llevar a cabo acciones mediante actuadores. Los agentes cuentan con una secuencia de percepciones que muestra el historial completo de todas las entradas que ha recibido; esta tabla se va alimentando dependiendo de las funciones que realice.
+
+Un agente se vuelve racional al tomar decisiones que conducen al mejor resultado o lo *“correcto”*. Hacer lo correcto puede ser ambiguo; para propósitos de los agentes, es lo que le permite al agente obtener el mejor resultado. Para evaluar el éxito de un agente en sus acciones, se emplean medidas de rendimiento como criterios.
+
+Para lograr el éxito, un agente racional debe tomar decisiones basadas en lo que pasa en su entorno y en lo que percibe. Para eso, realiza un proceso de exploración para conocer y aprender de lo que lo rodea; esto alimenta su lista de percepciones y, por tanto, acciones. Si al realizar alguna de las acciones el agente falla, lo ideal es que pueda aprender de la experiencia para evitar obtener el mismo resultado. Esto convierte al agente racional en independiente.
+
+## Desarrollo de un Agente
+
+Para comenzar con el desarrollo de un agente, es importante empezar con el *entorno de trabajo*. Este es el espacio donde habitará el agente, el cual debe contener la mayor cantidad de detalles posibles para que el agente pueda cumplir con sus objetivos. Existen varios tipos de entornos, tales como:
+
+- *Totalmente observable:* Permite al agente detectar todo aspecto relevante.
+- *Parcialmente observable:* Existe alguna limitante para poder obtener la información completa del entorno.
+- *Determinista:* Todo estado se encuentra determinado por el estado actual y la acción ejecutada del agente.
+- *Estocástico:* Es lo contrario al determinista, ya que solo se encuentra parcialmente determinado.
+- *Episódicos:* Cada episodio consiste en la percepción y una única acción. Cada episodio es independiente de los anteriores.
+- *Secuencial:* En estos, las decisiones tomadas con anterioridad afectan a las siguientes.
+- *Estático:* El entorno no tiene cambios en el momento que el agente está deliberando.
+- *Dinámico:* Es lo contrario al estático, ya que se pueden presentar cambios.
+- *Discreto:* Un entorno tiene un número de estados finitos.
+- *Continuo:* El número de estados cambia dependiendo de las percepciones.
+- *Agente individual:* En un entorno, no hay necesidad de medir el rendimiento realizando la comparación con otro agente.
+- *Multiagente:* En este entorno, sí existe la comparación, ya que lo esperado es que se maximice el rendimiento dependiendo del comportamiento de cada agente involucrado.
+
+Una vez definida la conducta que tendrá un agente y las acciones que realizará, es necesario diseñar el *programa del agente*, el cual es el encargado de proyectar las percepciones en las acciones. Este deberá contar con sensores físicos y actuadores, además de ser ejecutado dentro de algún tipo de computadora. Los programas de los agentes únicamente están capacitados para recibir la percepción actual del entorno como entrada. En el caso de que las acciones dependan del historial de percepciones, el agente debe tener la capacidad de recordarlas.
+
+Existen 4 tipos básicos de programas para agentes:
+
+- *Reactivos simples:* Realizan acciones dependiendo de las percepciones actuales.
+- *Reactivos basados en modelos:* Cuentan con un estado interno que depende de su histórico de percepciones.
+- *Basados en objetivos:* Necesitan información sobre el resultado esperado para poder generar las acciones posibles.
+- *Basados en utilidad:* Además de necesitar información sobre el resultado, también es necesario indicar una función de utilidad, la cual muestra cuál de las secuencias de acciones es la más eficiente.
+
+
