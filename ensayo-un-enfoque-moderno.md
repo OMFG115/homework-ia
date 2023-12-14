@@ -20,8 +20,6 @@ La IA ha tenido ha tenido un avance bastante rápido, poco a poco se han ido cre
 
 # Unidad 2: Agentes
 
-# Agente en la Inteligencia Artificial
-
 Un **agente** es cualquier entidad con la capacidad de percibir su entorno con la ayuda de sensores y llevar a cabo acciones mediante actuadores. Los agentes cuentan con una secuencia de percepciones que muestra el historial completo de todas las entradas que ha recibido; esta tabla se va alimentando dependiendo de las funciones que realice.
 
 Un agente se vuelve racional al tomar decisiones que conducen al mejor resultado o lo *“correcto”*. Hacer lo correcto puede ser ambiguo; para propósitos de los agentes, es lo que le permite al agente obtener el mejor resultado. Para evaluar el éxito de un agente en sus acciones, se emplean medidas de rendimiento como criterios.
