@@ -1,10 +1,10 @@
 # Introducción
 
-La inteligencia artificial (IA) se erige como un campo de estudio multifacético que busca emular la capacidad cognitiva humana mediante sistemas y algoritmos. En este contexto, los enfoques de sistemas que actúan como humanos, piensan como humanos, piensan racionalmente y actúan racionalmente delinean las principales corrientes de investigación. Cada una de estas perspectivas, junto con sus respectivas pruebas y desafíos, ha contribuido al desarrollo y evolución de la IA a lo largo del tiempo.
+La inteligencia artificial es un campo de estudio multidisciplinario que busca emular la capacidad cognitiva humana mediante sistemas y algoritmos. En este contexto, los enfoques de sistemas que actúan como humanos, piensan como humanos, piensan racionalmente y actúan racionalmente delinean las principales corrientes de investigación. Cada una de estas perspectivas, junto con sus respectivas pruebas y desafíos, ha contribuido al desarrollo y evolución de la IA a lo largo del tiempo.
 
-La intersección de disciplinas como la economía, neurociencia, psicología y lingüística ha sido esencial para comprender los mecanismos de pensamiento humano, sirviendo como base para la construcción de modelos y algoritmos en el campo de la IA. Desde sus primeras manifestaciones hasta los desafíos y avances contemporáneos, la historia de la inteligencia artificial refleja el persistente esfuerzo humano por descifrar y replicar procesos cognitivos.
+La colaboración y aportaciones de disciplinas como la economía, neurociencia, psicología y lingüística ha sido esencial para comprender los mecanismos de pensamiento humano, sirviendo como base para la construcción de modelos y algoritmos. Desde sus primeras manifestaciones hasta los desafíos y avances contemporáneos, la historia de la inteligencia artificial refleja el persistente esfuerzo humano por descifrar y replicar procesos cognitivos.
 
-A medida que los primeros trabajos con redes neuronales y sistemas basados en reglas pavimentaron el camino para la IA, se evidenció la necesidad de superar desafíos tecnológicos y de diseño. Los altibajos en el apoyo gubernamental y los estancamientos en la capacidad de hardware marcaron etapas críticas, pero la resiliencia y adaptabilidad del campo llevaron a desarrollos significativos.
+A medida que los primeros trabajos con redes neuronales y sistemas basados en reglas pavimentaron el camino para la IA, se evidenció la necesidad de superar desafíos tecnológicos y de diseño.
 
 # Unidad 1: Introducción a la Inteligencia Artificial
 
@@ -125,7 +125,7 @@ Un agente de búsqueda en línea funciona mediante el intercalado del cálculo y
 
 # Conclusión
 
-En retrospectiva, la inteligencia artificial ha recorrido un camino fascinante desde sus inicios hasta el panorama actual. Desde los primeros esfuerzos por entender y replicar el pensamiento humano hasta los sistemas basados en reglas y redes neuronales de última generación, la IA ha demostrado ser una disciplina en constante evolución. 
+En retrospectiva, la inteligencia artificial ha recorrido un camino largo desde sus inicios hasta el panorama actual. Desde los primeros esfuerzos por entender y replicar el pensamiento humano hasta los sistemas basados en reglas y redes neuronales de última generación, la IA ha demostrado ser una disciplina en constante evolución. 
 
 A medida que la IA continúa transformando diversas industrias y aspectos de la vida cotidiana, es imperativo abordar los retos éticos y sociales que surgen. El aprendizaje de máquinas, las estrategias de búsqueda informada y los algoritmos de optimización ofrecen herramientas poderosas, pero su implementación debe ser guiada por principios éticos y consideraciones cuidadosas.
 
