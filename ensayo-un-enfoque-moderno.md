@@ -88,7 +88,7 @@ Hay varias estrategias que se pueden seguir para recorrer un árbol de búsqueda
 - Búsqueda bidireccional, este tipo realiza dos búsquedas, una desde el nodo raíz y la otra desde el objetivo.
 
 # Unidad 4: Búsqueda informada y exploración
-# Estrategias de búsqueda informada
+## Estrategias de búsqueda informada
 
 Para comenzar a entender las búsquedas informadas, comenzamos con la búsqueda primero el mejor, la cual selecciona un nodo basado en la función de evaluación, tendiendo a ser el nodo con la evaluación más baja. Un componente clave de este tipo de algoritmos de búsqueda es la función heurística, la cual describe el coste del camino más barato desde un nodo a un nodo objetivo.
 
@@ -98,7 +98,7 @@ La búsqueda A* evalúa los nodos combinando el coste para alcanzar el nodo y el
 
 La búsqueda heurística con memoria acotada es un algoritmo que busca imitar la operación de la búsqueda primero el mejor estándar, pero utilizando solo un espacio lineal. Su estructura mantiene la pista del valor del mejor camino alternativo disponible desde cualquier antepasado del nodo actual, en caso de que el nodo actual exceda el límite, la recursividad vuelve al camino alternativo. De este modo, este algoritmo puede recordar el valor de la mejor hoja del subárbol para decidir si expandir o no dicho subárbol más tarde.
 
-# Algoritmos de búsqueda local y problemas de optimización
+## Algoritmos de búsqueda local y problemas de optimización
 
 Los algoritmos de búsqueda local funcionan con un solo estado actual y normalmente se mueven solo a los vecinos del estado. Este tipo de algoritmos tienen dos ventajas claves:
 
