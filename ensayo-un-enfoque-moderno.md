@@ -1,3 +1,11 @@
+# Introducción
+
+La inteligencia artificial (IA) se erige como un campo de estudio multifacético que busca emular la capacidad cognitiva humana mediante sistemas y algoritmos. En este contexto, los enfoques de sistemas que actúan como humanos, piensan como humanos, piensan racionalmente y actúan racionalmente delinean las principales corrientes de investigación. Cada una de estas perspectivas, junto con sus respectivas pruebas y desafíos, ha contribuido al desarrollo y evolución de la IA a lo largo del tiempo.
+
+La intersección de disciplinas como la economía, neurociencia, psicología y lingüística ha sido esencial para comprender los mecanismos de pensamiento humano, sirviendo como base para la construcción de modelos y algoritmos en el campo de la IA. Desde sus primeras manifestaciones hasta los desafíos y avances contemporáneos, la historia de la inteligencia artificial refleja el persistente esfuerzo humano por descifrar y replicar procesos cognitivos.
+
+A medida que los primeros trabajos con redes neuronales y sistemas basados en reglas pavimentaron el camino para la IA, se evidenció la necesidad de superar desafíos tecnológicos y de diseño. Los altibajos en el apoyo gubernamental y los estancamientos en la capacidad de hardware marcaron etapas críticas, pero la resiliencia y adaptabilidad del campo llevaron a desarrollos significativos.
+
 # Unidad 1: Introducción a la Inteligencia Artificial
 
 A grandes rasgos la inteligencia artificial presenta 4 enfoques principales, sistemas que piensan como humanos, sistemas que piensan racionalmente, sistemas que actúan como humanos y sistemas que actúan racionalmente. Estos se dividen en 2 grupos: el primero basado en la racionalidad y el segundo en la humanidad.
@@ -78,3 +86,47 @@ Hay varias estrategias que se pueden seguir para recorrer un árbol de búsqueda
 - Búsqueda de profundidad limitada, esta búsqueda solo expande los nodos hasta una profundidad dada.
 - Búsqueda con profundidad iterativa, esta encuentra el mejor límite de profundidad. Va aumentando gradualmente su límite.
 - Búsqueda bidireccional, este tipo realiza dos búsquedas, una desde el nodo raíz y la otra desde el objetivo.
+
+# Unidad 4: Búsqueda informada y exploración
+# Estrategias de búsqueda informada
+
+Para comenzar a entender las búsquedas informadas, comenzamos con la búsqueda primero el mejor, la cual selecciona un nodo basado en la función de evaluación, tendiendo a ser el nodo con la evaluación más baja. Un componente clave de este tipo de algoritmos de búsqueda es la función heurística, la cual describe el coste del camino más barato desde un nodo a un nodo objetivo.
+
+La búsqueda voraz primero el mejor trata de expandir el nodo más cercano al objetivo, bajo la suposición de que probablemente conduzca rápidamente a una solución. Este tipo de búsqueda es similar a la primero en profundidad, tanto en funcionamiento como en defectos, ya que no es óptima y es incompleta.
+
+La búsqueda A* evalúa los nodos combinando el coste para alcanzar el nodo y el coste de ir al objetivo. A diferencia de la anterior, esta sí es completa además de óptima. A pesar de esto, A* tiene una desventaja principal y es que, frente a problemas demasiado grandes, ya que, al generar todos los nodos en memoria, tiende a quedarse sin espacio antes de quedarse sin tiempo.
+
+La búsqueda heurística con memoria acotada es un algoritmo que busca imitar la operación de la búsqueda primero el mejor estándar, pero utilizando solo un espacio lineal. Su estructura mantiene la pista del valor del mejor camino alternativo disponible desde cualquier antepasado del nodo actual, en caso de que el nodo actual exceda el límite, la recursividad vuelve al camino alternativo. De este modo, este algoritmo puede recordar el valor de la mejor hoja del subárbol para decidir si expandir o no dicho subárbol más tarde.
+
+# Algoritmos de búsqueda local y problemas de optimización
+
+Los algoritmos de búsqueda local funcionan con un solo estado actual y normalmente se mueven solo a los vecinos del estado. Este tipo de algoritmos tienen dos ventajas claves:
+
+- Usan muy poca memoria.
+- Pueden encontrar soluciones razonables en espacios de estados grandes o infinitos.
+
+Además, son útiles para resolver problemas de optimización.
+
+El algoritmo de ascensión de colinas es un bucle que se mueve en dirección del valor creciente, este termina cuando alcanza un pico en donde ningún vecino tiene un valor más alto. Este tipo de algoritmos no presentan un árbol de búsqueda, presentan una estructura de datos del nodo actual, el cual necesita solo el registro del estado y su valor de función objetivo. La ascensión de colinas puede llegar a atascarse durante su ejecución por los siguientes motivos:
+
+- Máximo local, este es un pico más alto de cada uno de sus vecinos, pero más abajo del máximo global.
+- Crestas, estas causan una secuencia de máximos locales que hace muy difícil la navegación para los algoritmos avaros.
+- Meseta, es un espacio de estados donde la evaluación es plana, lo cual provoca que no haya ninguna salida ascendente.
+
+Este tipo de algoritmo cuenta también con variantes que modifican su estructura, lo cual le da una forma de abordar un problema de maneras diferentes, algunas de ellas son:
+
+- Ascensión de colina estocástica, donde sus movimientos ascendentes son aleatorios.
+- Ascensión de colinas de primera opción, genera sucesores al azar hasta que se genera uno que es mejor que el estado actual.
+- Ascensión de colinas de reinicio aleatorio, esta realiza una serie de búsquedas en ascensión de colinas desde los estados iniciales generados aleatoriamente.
+
+El algoritmo búsqueda de haz local guarda la pista de varios estados. Este comienza con estados generados aleatoriamente. En cada paso se generan todos los sucesores de dichos estados, si alguno es un objetivo, el algoritmo se detiene.
+
+Un agente de búsqueda en línea funciona mediante el intercalado del cálculo y la acción; primero toma una acción, observa el entorno y calcula la siguiente acción. Este tipo de búsqueda es adecuada en dominios dinámicos o semidinámicos. También, es una idea necesaria para un problema de exploración donde los estados y las acciones son desconocidos por el agente. Un problema que presenta esta búsqueda es que solo puede realizarse por un agente que ejecute acciones, más que por un proceso computacional.
+
+# Conclusión
+
+En retrospectiva, la inteligencia artificial ha recorrido un camino fascinante desde sus inicios hasta el panorama actual. Desde los primeros esfuerzos por entender y replicar el pensamiento humano hasta los sistemas basados en reglas y redes neuronales de última generación, la IA ha demostrado ser una disciplina en constante evolución. 
+
+A medida que la IA continúa transformando diversas industrias y aspectos de la vida cotidiana, es imperativo abordar los retos éticos y sociales que surgen. El aprendizaje de máquinas, las estrategias de búsqueda informada y los algoritmos de optimización ofrecen herramientas poderosas, pero su implementación debe ser guiada por principios éticos y consideraciones cuidadosas.
+
+En última instancia, la inteligencia artificial, más allá de sus logros técnicos, es un testimonio de la capacidad humana para explorar, comprender y recrear la complejidad de la inteligencia. En el horizonte, se vislumbran nuevos desafíos y descubrimientos que seguirán definiendo la IA y su impacto en el mundo, subrayando la necesidad de una reflexión continua y una orientación ética en este emocionante viaje hacia el futuro.
