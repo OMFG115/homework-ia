@@ -52,4 +52,29 @@ Existen 4 tipos básicos de programas para agentes:
 - *Basados en objetivos:* Necesitan información sobre el resultado esperado para poder generar las acciones posibles.
 - *Basados en utilidad:* Además de necesitar información sobre el resultado, también es necesario indicar una función de utilidad, la cual muestra cuál de las secuencias de acciones es la más eficiente.
 
+# Unidad 3: Resolver problemas mediante búsqueda
 
+Los agentes inteligentes deben maximizar su medida de rendimiento. Esto puede ser alcanzado mediante la definición de objetivos, formulados con base en la situación actual y la medida de rendimiento del agente. Una vez definido, se pasa a la formulación del problema en donde se decide que acciones y estados se deben considerar.
+
+Para comprender lo que implica un problema, se pueden utilizar 4 componentes:
+- Estado inicial del agente
+- Descripción de las posibles acciones disponibles
+- El test objetivo, que determina si un estado es un objetivo
+- Función de costo del camino, que asigna un valor numérico a cada una de las opciones que tiene el agente
+
+Una vez que el agente haya obtenido una serie de posibles opciones, realiza una búsqueda para encontrar la más adecuada para alcanzar su objetivo. Este proceso de búsqueda toma una entrada y devuelve una solución, para posteriormente ejecutar sus acciones; esta fase se llama ejecución. Este proceso se repite hasta llegar al objetivo final.
+
+Para realizar la búsqueda de la solución, podemos utilizar el árbol de búsqueda. Un árbol de búsqueda es una estructura de datos que comienza con un nodo padre y se desglosa en diferentes nodos, convirtiéndose en nodos hijos, que a su vez pueden tener otros nodos. Cada uno de estos tiene 5 componentes:
+- Estado, es el estado correspondiente al nodo
+- Nodo padre, es el responsable de la generación del nodo
+- Acción, es la acción que será aplicada al padre para generar el nodo
+- Costo del camino, es el costo del recorrido indicado por los punteros a los padres
+- Profundidad, define la cantidad de espacios entre el estado inicial y el nodo
+
+Hay varias estrategias que se pueden seguir para recorrer un árbol de búsqueda:
+- Búsqueda por anchura, que consiste en ir expandiendo los sucesores del nodo raíz. Es necesario expandir todos los nodos de un nivel antes de expandir los del siguiente.
+- Búsqueda de costo uniforme, esta búsqueda va expandiendo los nodos con el camino más pequeño, siempre y cuando haya diferencia en sus costos.
+- Búsqueda primero en profundidad, este método siempre hace una expansión del nodo más profundo, una vez que se llega a la máxima profundidad se retrocede al siguiente nodo más superficial que aún tenga sucesores los cuales no hayan sido explorados.
+- Búsqueda de profundidad limitada, esta búsqueda solo expande los nodos hasta una profundidad dada.
+- Búsqueda con profundidad iterativa, esta encuentra el mejor límite de profundidad. Va aumentando gradualmente su límite.
+- Búsqueda bidireccional, este tipo realiza dos búsquedas, una desde el nodo raíz y la otra desde el objetivo.
