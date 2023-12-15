@@ -127,6 +127,4 @@ Un agente de búsqueda en línea funciona mediante el intercalado del cálculo y
 
 En retrospectiva, la inteligencia artificial ha recorrido un camino largo desde sus inicios hasta el panorama actual. Desde los primeros esfuerzos por entender y replicar el pensamiento humano hasta los sistemas basados en reglas y redes neuronales de última generación, la IA ha demostrado ser una disciplina en constante evolución. 
 
-A medida que la IA continúa transformando diversas industrias y aspectos de la vida cotidiana, es imperativo abordar los retos éticos y sociales que surgen. El aprendizaje de máquinas, las estrategias de búsqueda informada y los algoritmos de optimización ofrecen herramientas poderosas, pero su implementación debe ser guiada por principios éticos y consideraciones cuidadosas.
-
 En última instancia, la inteligencia artificial, más allá de sus logros técnicos, es un testimonio de la capacidad humana para explorar, comprender y recrear la complejidad de la inteligencia. En el horizonte, se vislumbran nuevos desafíos y descubrimientos que seguirán definiendo la IA y su impacto en el mundo, subrayando la necesidad de una reflexión continua y una orientación ética en este emocionante viaje hacia el futuro.
